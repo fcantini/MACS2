@@ -2,8 +2,8 @@
 MARSIS coherent surface clutter simulator
 
 ## SET-UP:
-To use OpenMP set "#define OMP 1" in setParallel.h
-To use MPI set "#define MPI 1" in setParallel.h
+To use OpenMP set `#define OMP 1` in `setParallel.h`
+To use MPI set `#define MPI 1` in `setParallel.h`
 
 OpenMP and MPI can be used simultaneously.
 
