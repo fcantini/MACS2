@@ -9,7 +9,7 @@ OpenMP and MPI can be used simultaneously.
 
 To compile for big endian machines set `#define BIG_ENDIAN_COMP 1` in `marsislib.h` line 65
 
-Select the complex variable error function algorithm by setting `MARSIS_erf_alg` in `marsislib.h` line 54
+Select the complex variable error function algorithm by setting `#define MARSIS_erf_alg` in `marsislib.h` line 54
 
 ## COMPILATION:
 Example using gcc:
